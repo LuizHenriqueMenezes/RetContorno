@@ -10,7 +10,7 @@ namespace RetContorno
         int altura, largura, meio = 1; 
         bool valor; 
     
-        Console.WriteLine("Tamanho do retângulo (digite apenas números de 1 a 10):");
+        Console.WriteLine("Tamanho do retângulo, digite apenas números de 1 a 10:");
 
         Console.Write("Largura: ");
         valor = Int32.TryParse (Console.ReadLine(), out largura);
@@ -43,7 +43,7 @@ namespace RetContorno
                 int result = largura - 2;
                 while (parteDois <= result)
                 {
-                    Console.Write("  ");
+                    Console.Write("* ");
                     parteDois++;                   
                 }
 
