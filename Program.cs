@@ -47,7 +47,7 @@ namespace RetContorno
                     parteDois++;                   
                 }
 
-                Console.Write("* ");
+                Console.Write("  ");
                 Console.WriteLine();
                 meio++;
             }
